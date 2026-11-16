@@ -1,5 +1,12 @@
 name: Python
 
+on:
+  push:
+    branches: [master]
+  pull_request_target:
+    paths:
+      - 'DockerFile'
+      - 'src/**'
 
 jobs:
   build:
