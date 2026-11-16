@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-teste = 0
+teste = 66
 
 app = FastAPI()
 
